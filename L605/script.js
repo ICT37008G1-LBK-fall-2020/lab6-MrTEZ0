@@ -1,9 +1,9 @@
 
 
 var students = [
-    { FirstName: 'ნიკა', LastName: 'გაბისონია', PersonalNumber: '12' },
-    { FirstName: 'გიორგი', LastName: 'მეტრეველი', PersonalNumber: '13' },
-    { FirstName: 'დავითი', LastName: 'ბუკია', PersonalNumber: '14' }
+    { FirstName: 'ზურა', LastName: 'ბუკია', PersonalNumber: '12' },
+    { FirstName: 'ნიკა', LastName: 'ლომიძე', PersonalNumber: '13' },
+    { FirstName: 'ანა', LastName: 'ცხადაძე', PersonalNumber: '14' }
 ];
 
 function displayStudentsTable(studentList) {

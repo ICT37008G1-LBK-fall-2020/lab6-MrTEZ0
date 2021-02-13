@@ -6,6 +6,6 @@ function addListItem(list, itemContent) {
 let list = document.getElementById('student-list');
 let inputEmtpy = false;
 while (!inputEmtpy) {
-    let input = prompt('შეიყვანეთ სტუდენტის სახელი', '');
+    let input = prompt('სტუდენტის სახელი', '');
     input != null ? input.length ? addListItem(list, input) : inputEmtpy = true : inputEmtpy = true;
 }
